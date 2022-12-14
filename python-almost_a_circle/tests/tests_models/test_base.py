@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Test case for the base"""
+"""Test cases for Base"""
 
 import os
 import unittest
