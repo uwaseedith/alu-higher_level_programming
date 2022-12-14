@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Test case for Base"""
+"""Test cases for Base"""
 
 import unittest
 from io import StringIO
@@ -216,3 +216,4 @@ class TestRectangle(unittest.TestCase):
         from_file = Rectangle.load_from_file()
         self.assertEqual(type(from_file), list)
         self.assertEqual(from_file[0].width, 1)
+        self.assertEqual(from_file[0].height, 2)
